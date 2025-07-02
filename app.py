@@ -8,7 +8,8 @@ from typing import Dict, Literal
 st.set_page_config(page_title="Fitness measure", page_icon="🏋️")
 
 ## header
-st.header("Fitness Measure", divider=True)
+st.header("Fitness Measure")
+st.markdown("---")  # optional manual divider
 st.write("Are you physically fit or not? Let's check it!")
 
 ## importing model
